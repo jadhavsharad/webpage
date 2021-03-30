@@ -1,0 +1,100 @@
+
+.header {
+  overflow: hidden;
+  background-color: #000000;
+  padding: 20px 10px;
+  border: 5px;
+  border-color: black;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 25px;
+  border-radius: 10px;
+}
+
+.header a.logo {
+  font-size: 50px;
+  letter-spacing: -2px ;
+  font-family: BEBAS;
+  color: white;
+}
+
+.header a:hover {
+  background-color: #ff5500;
+  transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  border-radius: 45px; 
+  color: white;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+  font-family: Montserrat;
+  color: white;
+}
+.divider{
+  background-color: red;
+  height: 5px;
+}
+
+.welcome{
+  text-align: center;
+  color: #f0f0f0;
+  font-size: 60px;
+  padding-top: 5em;
+}
+
+.contact{
+  padding-top: 20em ;
+}
+.about{
+  padding-top: 20em;
+}
+.fa {
+  padding: 10px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  opacity: 0.5;
+}
+.fa-facebook {
+  background: #ffff;
+  color: black;
+  border-radius: 50%;
+  width: 15px;
+  position: relative;
+  top: -5px;
+
+}
+
+.fa-instagram {
+  background: #ffff;
+  color: black;
+  border-radius: 50%;
+  width: 15px;
+
+}
+.fa-youtube{
+  background: #ffff;
+  color: black;
+  border-radius: 50%;
+  width:15px;
+position: relative;
+top: 5px;
+
+}
